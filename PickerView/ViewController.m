@@ -129,8 +129,8 @@
         _districtIndex = row;
     }
     
-    // 看个人UE，决定是否开启
-//    [self resetPickerSelectRow];
+    // 重置当前选中项
+    [self resetPickerSelectRow];
 }
 
 #pragma mark - Touch
